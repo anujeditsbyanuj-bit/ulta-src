@@ -1,6 +1,11 @@
 # Netscape HTTP Cookie File
-# Paste your exported Facebook (facebook.com) cookies below this line.
-# Export using a browser extension like "Get cookies.txt LOCALLY" while
-# logged into Facebook, then replace this file's contents with that export.
-# Needed for private/restricted videos — public videos work without this.
-# Format (tab-separated): domain  flag  path  secure  expiry  name  value
+# https://curl.haxx.se/rfc/cookie_spec.html
+# This is a generated file! Do not edit.
+
+.facebook.com	TRUE	/	TRUE	1818225682	datr	XapKaltptrB2SkG2xfsvsA5g
+.facebook.com	TRUE	/	TRUE	1818225749	sb	XapKan9WGy78wMshV7BBIoFF
+.facebook.com	TRUE	/	TRUE	1816186890	c_user	100064329103211
+.facebook.com	TRUE	/	TRUE	1816186890	xs	35%3AtAW5TLteJsRCDA%3A2%3A1783665747%3A-1%3A-1%3A%3AAcw27zKzDPbiMWlSoaznW5ofcRSOY1Z0wePA1S2EzA
+.facebook.com	TRUE	/	TRUE	1792426953	fr	1Px7GZ0FHISAcFcPs.AWfAfX5VGqlXoN6hLCdLnh-81yDnyRYYFhJ19QUgCEOu5fuihzQ.BqX5yJ..AAA.0.0.BqX5zI.AWfe0qO4ERSM7x-Vlojfs5IrRmM
+.facebook.com	TRUE	/	TRUE	0	presence	C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1784650976540%2C%22v%22%3A1%7D
+.facebook.com	TRUE	/	TRUE	1785255776	wd	1034x613
