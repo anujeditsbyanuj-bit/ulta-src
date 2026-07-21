@@ -1,8 +1,8 @@
 """
 Save Restricted Content Bot Configuration
 
-Developed by: LastPerson07XAkBots
-Telegram: @AkBots_Official X @THEUPDATEDGUYS
+Developed by: Anuj Kumar
+Telegram: @Anujedits76
 
 Please retain this credit if you use or modify this project.
 """
@@ -35,7 +35,7 @@ API_HASH = _require("API_HASH", "7aa60670b871050820086c6267371ee6")
 # gated on ADMINS, so silently defaulting to a baked-in ID would give that
 # ID admin access (including those dangerous commands) on any deployment
 # that forgets to set ADMINS explicitly. Failing loudly is safer.
-ADMINS = [int(admin) for admin in _require("ADMINS", "").split(",") if admin]
+ADMINS = [int(admin) for admin in _require("ADMINS", "8730393744").split(",") if admin]
 
 
 # ==============================
