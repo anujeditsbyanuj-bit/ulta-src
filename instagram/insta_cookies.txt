@@ -1,5 +1,14 @@
 # Netscape HTTP Cookie File
-# Paste your exported Instagram (instagram.com) cookies below this line.
-# Export using a browser extension like "Get cookies.txt LOCALLY" while
-# logged into Instagram, then replace this file's contents with that export.
-# Format (tab-separated): domain  flag  path  secure  expiry  name  value
+# https://curl.haxx.se/rfc/cookie_spec.html
+# This is a generated file! Do not edit.
+
+.instagram.com	TRUE	/	TRUE	1817635390	datr	PpJHapkW4Gs2jTqyzUsQRKsq
+.instagram.com	TRUE	/	TRUE	1814611390	ig_did	61839A13-DB89-4C72-BB15-FFA64D2D0DAE
+.instagram.com	TRUE	/	TRUE	1817635390	mid	akeSPgALAAEuhvpwLnBqb-kA5ApC
+.instagram.com	TRUE	/	TRUE	1817635460	ps_l	1
+.instagram.com	TRUE	/	TRUE	1817635460	ps_n	1
+.instagram.com	TRUE	/	TRUE	1792426891	ds_user_id	46287622545
+.instagram.com	TRUE	/	TRUE	1819210891	csrftoken	z7M2A8x3hPXxQAegUHO06VgCGkxaNBi3
+.instagram.com	TRUE	/	TRUE	1785255685	wd	1034x613
+.instagram.com	TRUE	/	TRUE	1816186891	sessionid	46287622545%3AX5LKpBQeXBs0oq%3A20%3AAYj1VLq5H1yCDW63U1cyTWZ6mJVVeBuQTC7C5KL4JQ
+.instagram.com	TRUE	/	TRUE	0	rur	VCN%2C17841446276375952%2C1785860492%3A01ff74b972bf54dcefbc52764d13489f0f5554222b4f4f7ca9f2d67b647272b4a89de58c
