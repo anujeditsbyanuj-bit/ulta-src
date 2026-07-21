@@ -99,7 +99,7 @@ YTDLP_PROXY = os.environ.get("YTDLP_PROXY", "").strip()
 # still works for public links via a temporary guest session — this just
 # authenticates as your account instead (higher rate limits, and access to
 # content tied to your account). Get it from https://gofile.io/myProfile.
-GOFILE_TOKEN = os.environ.get("GOFILE_TOKEN", "")
+GOFILE_TOKEN = os.environ.get("GOFILE_TOKEN", "VmueEQVJ07tbmbVLYHAzxbVrkcdY0gLD")
 
 # Optional Spotify Web API app credentials (Akbots/spotify.py's text
 # search, e.g. "/spotify believer"). Free, official, no user login needed —
