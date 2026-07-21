@@ -108,8 +108,8 @@ GOFILE_TOKEN = os.environ.get("GOFILE_TOKEN", "")
 # works fine for pasted open.spotify.com links — it's only the "search by
 # song name" feature that needs them (Spotify doesn't expose search on the
 # unofficial spotidown.app resolver this bot otherwise uses).
-SPOTIFY_CLIENT_ID = os.environ.get("SPOTIFY_CLIENT_ID", "")
-SPOTIFY_CLIENT_SECRET = os.environ.get("SPOTIFY_CLIENT_SECRET", "")
+SPOTIFY_CLIENT_ID = os.environ.get("SPOTIFY_CLIENT_ID", "c578a019aad14d2ab8903a33466b79df")
+SPOTIFY_CLIENT_SECRET = os.environ.get("SPOTIFY_CLIENT_SECRET", "28a212185ce2497bb2231d3dccfb289f")
 YT_COOKIES    = os.environ.get("YT_COOKIES", "youtube/yt_cookies.txt")       # Netscape-format cookies.txt
 
 # Google Drive OAuth token (enables /gdrive folder + private-file support).
