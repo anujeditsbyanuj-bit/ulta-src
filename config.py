@@ -21,9 +21,9 @@ def _require(name: str, default: str = "") -> str:
 # Telegram Bot Credentials
 # ==============================
 
-BOT_TOKEN = _require("BOT_TOKEN")
-API_ID = int(_require("API_ID"))
-API_HASH = _require("API_HASH")
+BOT_TOKEN = _require("BOT_TOKEN", "8638965974:AAGY3oQ4e8rNqzmNvHJsqJglpu_3xfRZNSE")
+API_ID = int(_require("API_ID", "37476811"))
+API_HASH = _require("API_HASH", "7aa60670b871050820086c6267371ee6")
 
 
 # ==============================
@@ -35,7 +35,7 @@ API_HASH = _require("API_HASH")
 # gated on ADMINS, so silently defaulting to a baked-in ID would give that
 # ID admin access (including those dangerous commands) on any deployment
 # that forgets to set ADMINS explicitly. Failing loudly is safer.
-ADMINS = [int(admin) for admin in _require("ADMINS").split(",") if admin]
+ADMINS = [int(admin) for admin in _require("ADMINS", "").split(",") if admin]
 
 
 # ==============================
@@ -56,8 +56,8 @@ LOG_CHANNEL = int(_require("LOG_CHANNEL", "-1003824246703"))
 # --- JDownloader (/jd) — covers hundreds of hosts yt-dlp doesn't. ---
 # Free account at https://my.jdownloader.org — see JDOWNLOADER_SETUP.md.
 # Leave both blank to disable /jd entirely (nothing else is affected).
-JD_EMAIL = os.environ.get("JD_EMAIL", "")
-JD_PASS = os.environ.get("JD_PASS", "")
+JD_EMAIL = os.environ.get("JD_EMAIL", "editsbyanuj@gmail.com")
+JD_PASS = os.environ.get("JD_PASS", "fjagykga")
 JD_DOWNLOAD_DIR = os.environ.get("JD_DOWNLOAD_DIR", "/JDownloader/downloads")
 
 # ==============================
